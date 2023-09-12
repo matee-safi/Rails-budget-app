@@ -9,6 +9,8 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 
 gem 'devise'
 
+gem 'cancancan'
+
 gem 'sprockets-rails'
 
 gem 'pg', '~> 1.1'
