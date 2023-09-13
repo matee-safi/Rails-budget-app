@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Proxima-nova;
+  src: url('Proxima-nova.otf') format('opentype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EFF2F1;
+  font-family: Proxima-nova;
+  text-align: center;
+}
+
+.splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #2F3A42;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 100%;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.log-in-btn {
+  background-color: #3878C2;
+  color: #E2EBF6;
+  text-decoration: none;
+  width: 80%;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.sign-in-btn {
+  color: #70747A;
+  text-decoration: none;
+  width: 80%;
+  padding: 15px;
+  border-radius: 3px;
+  margin-top: 20px;
+}

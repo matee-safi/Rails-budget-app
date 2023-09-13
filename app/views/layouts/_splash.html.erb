@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="splash.css">
+</head>
+  <body>
+    <div class="splash">
+      <div class="hero">
+        <h1>BayBal</h1>
+      </div>
+      <div class="buttons">
+        <%= link_to 'LOG IN', user_session_path, class: 'log-in-btn' %>
+        <%= link_to 'SIGN UP', new_user_registration_path, class: 'sign-in-btn' %>
+      </div>
+    </div>
+  </body>
+</html>
