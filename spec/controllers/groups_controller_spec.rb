@@ -15,7 +15,7 @@ RSpec.describe GroupsController, type: :controller do
   end
 
   describe 'GET #show' do
-    let(:group) { create(:group, user: user) }
+    let(:group) { create(:group, user:) }
 
     it 'returns a success response' do
       get :show, params: { id: group.id }
@@ -35,9 +35,9 @@ RSpec.describe GroupsController, type: :controller do
 
     context 'with valid parameters' do
       it 'creates a new Group' do
-        expect {
+        expect do
           post :create, params: { group: valid_attributes }
-        }.to change(Group, :count).by(1)
+        end.to change(Group, :count).by(1)
       end
 
       it 'redirects to the groups index page' do
@@ -48,9 +48,9 @@ RSpec.describe GroupsController, type: :controller do
 
     context 'with invalid parameters' do
       it 'does not create a new Group' do
-        expect {
+        expect do
           post :create, params: { group: { name: nil } }
-        }.to_not change(Group, :count)
+        end.to_not change(Group, :count)
       end
 
       it 'renders the new template' do

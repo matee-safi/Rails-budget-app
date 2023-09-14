@@ -7,7 +7,7 @@ RSpec.describe Entity, type: :model do
     subject do
       Entity.new(
         author: user,
-        group: group,
+        group:,
         name: 'John Doe'
       )
     end

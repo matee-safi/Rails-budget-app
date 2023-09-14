@@ -6,7 +6,7 @@ RSpec.describe EntitiesController, type: :controller do
   # Assuming you have set up FactoryBot and Devise for testing
 
   let(:user) { create(:user) } # Create a test user
-  let(:group) { create(:group, user: user) } # Create a test group
+  let(:group) { create(:group, user:) } # Create a test group
 
   before do
     sign_in user # Sign in the test user
@@ -34,9 +34,9 @@ RSpec.describe EntitiesController, type: :controller do
       let(:valid_attributes) { { name: 'Test Entity', amount: 100.0 } }
 
       it 'creates a new Entity' do
-        expect {
+        expect do
           post :create, params: { group_id: group.id, entity: valid_attributes }
-        }.to change(Entity, :count).by(1)
+        end.to change(Entity, :count).by(1)
       end
 
       it 'redirects to the group page' do
@@ -54,9 +54,9 @@ RSpec.describe EntitiesController, type: :controller do
       let(:invalid_attributes) { { name: nil, amount: nil } }
 
       it 'does not create a new Entity' do
-        expect {
+        expect do
           post :create, params: { group_id: group.id, entity: invalid_attributes }
-        }.to_not change(Entity, :count)
+        end.to_not change(Entity, :count)
       end
 
       it 'renders the new template' do

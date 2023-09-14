@@ -19,8 +19,8 @@ class ApplicationController < ActionController::Base
   private
 
   def authenticate_user!
-    unless user_signed_in?
-      redirect_to root_path
-    end
+    return if user_signed_in?
+
+    redirect_to root_path
   end
 end
