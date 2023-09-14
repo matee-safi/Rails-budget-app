@@ -3,9 +3,11 @@ require 'rails_helper'
 RSpec.describe Entity, type: :model do
   describe 'validations' do
     user = User.create(name: 'John Doe')
+    group = Group.create(name: 'Group 1', user_id: user.id)
     subject do
       Entity.new(
         author: user,
+        group:,
         name: 'John Doe'
       )
     end
