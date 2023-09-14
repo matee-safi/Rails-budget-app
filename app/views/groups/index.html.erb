@@ -1,14 +1,15 @@
+<div class="nav">
+  <%= link_to image_tag("hamburger.png", width: '20') %>
+  <p class="center">CATEGORIES</p>
+  <p><%= link_to image_tag("loupe.png", width: '20'), class: 'submit' %></p>
+</div>
 <p style="color: green"><%= notice %></p>
-
-<h1>Groups</h1>
-
 <div id="groups">
   <% @groups.each do |group| %>
     <%= render group %>
-    <p>
-      <%= link_to "Show this group", group %>
-    </p>
   <% end %>
 </div>
 
-<%= link_to "New group", new_group_path %>
+<div class="new-btn-border">
+  <%= link_to "ADD NEW CATAGORY", new_group_path, class:'new-btn' %>
+</div>

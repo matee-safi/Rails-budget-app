@@ -1,16 +1,3 @@
-@font-face {
-  font-family: Proxima-nova;
-  src: url('Proxima-nova.otf') format('opentype');
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #EFF2F1;
-  font-family: Proxima-nova;
-  text-align: center;
-}
-
 .splash {
   position: fixed;
   top: 0;
@@ -59,8 +46,5 @@ body {
 .sign-in-btn {
   color: #70747A;
   text-decoration: none;
-  width: 80%;
-  padding: 15px;
-  border-radius: 3px;
-  margin-top: 20px;
+  margin: 20px 0;
 }
