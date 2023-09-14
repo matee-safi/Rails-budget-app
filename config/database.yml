@@ -1,18 +1,18 @@
 default: &default
   adapter: postgresql
   encoding: unicode
+  user: mydatabase
+  password: mydatabase
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  host: localhost
-  username: postgres
-  password: 1234
+  timeout: 5000
 
 development:
   <<: *default
-  database: Rails_budget_app_development
+  database: mydatabase
 
 test:
   <<: *default
-  database: Rails_budget_app_test
+  database: mydatabase
 
 production:
   <<: *default
