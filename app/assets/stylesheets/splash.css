@@ -1,0 +1,50 @@
+.splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #2f3a42;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 100%;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.log-in-btn {
+  background-color: #3878c2;
+  color: #e2ebf6;
+  text-decoration: none;
+  width: 80%;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.sign-in-btn {
+  color: #70747a;
+  text-decoration: none;
+  margin: 20px 0;
+}

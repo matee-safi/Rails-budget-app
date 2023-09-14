@@ -1,22 +1,12 @@
-<div id="<%= dom_id group %>">
-  <p>
-    <strong>Name:</strong>
-    <%= group.name %>
-  </p>
-
-  <p>
-    <strong>Icon:</strong>
-    <%= group.icon %>
-  </p>
-
-  <p>
-    <strong>Createdat:</strong>
-    <%= group.createdAt %>
-  </p>
-
-  <p>
-    <strong>User:</strong>
-    <%= group.user_id %>
-  </p>
-
+<%= link_to group_path(group) do %>
+<div id="<%= dom_id group %>" class="group flex">
+  <div class="flex">
+    <%= image_tag(group.icon, width:'70') %>
+    <div>
+      <h4><%= group.name %></h4>
+      <p><%= group.created_at %></p>
+    </div>
+  </div>
+  <h5>$<%= group.total %></h5>
 </div>
+<% end %>

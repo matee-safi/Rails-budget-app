@@ -1,10 +1,35 @@
+<div class="nav">
+  <%= link_to image_tag("arrow.png", width: '20'), groups_path %>
+  <p class="center">TRANSACTIONS</p>
+  <h6></h6>
+</div>
+
 <p style="color: green"><%= notice %></p>
 
-<%= render @group %>
+<div class="group">
+  <div class="flex">
+    <%= image_tag(@group.icon, width:'70') %>
+    <div>
+      <h4><%= @group.name %></h4>
+    </div>
+  </div>
+  <p class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl eget ultricies ultrices, nunc nisl aliquam nunc, sit amet lacinia ni</p>
+  <hr>
+  <% @entities.each do |entity| %>
+    <%= render entity %>
+  <% end %>
+  <div class="flex between">
+    <div>
+      <h4>TOTAL PAYMENT</h4>
+    </div>
+    <div id="total">
+      <h4>$<%= @group.total %></h4>
+    </div>
+  </div>
+</div>
 
-<div>
-  <%= link_to "Edit this group", edit_group_path(@group) %> |
-  <%= link_to "Back to groups", groups_path %>
 
-  <%= button_to "Destroy this group", @group, method: :delete %>
+
+<div class="new-btn-border">
+  <%= link_to "ADD NEW TRANSACTION", new_group_entity_path(@group), class:'new-btn' %>
 </div>
