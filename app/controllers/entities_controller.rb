@@ -1,5 +1,4 @@
 class EntitiesController < ApplicationController
-
   # GET /entities/new
   def new
     @group = Group.find(params[:group_id])
