@@ -14,7 +14,7 @@
  *= require_self
  */
 
- @font-face {
+@font-face {
   font-family: Proxima-nova;
   src: url('Proxima-nova.otf') format('opentype');
 }
@@ -22,14 +22,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #EFF2F1;
+  background-color: #eff2f1;
   color: #434b54;
-  font-family: Proxima-nova;
+  font-family: Proxima-nova, sans-serif;
   text-align: center;
 }
 
 .nav {
-  background: linear-gradient(#3778C2, #3066A6);
+  background: linear-gradient(#3778c2, #3066a6);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,7 +47,7 @@ a {
 }
 
 .submit {
-  color: #E2EBF6;
+  color: #e2ebf6;
   background: none;
   border: none;
   font-size: 16px;
@@ -58,29 +58,28 @@ a {
   top: 15px;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #E2EBF6;
+  color: #e2ebf6;
 }
 
 .input {
   border: none;
   outline: none;
   background: #fff;
-  color: #70747A;
+  color: #70747a;
   font-size: 16px;
-  text-align: center;
   width: 100%;
   text-align: left;
   padding: 15px;
-  border-top: 1px solid #F5F5F5;
+  border-top: 1px solid #f5f5f5;
 }
 
 .input-bottom {
   margin-bottom: 20px;
-  border-bottom: 1px solid #F5F5F5;
+  border-bottom: 1px solid #f5f5f5;
 }
 
 .forgot-btn {
-  color: #70747A;
+  color: #70747a;
   text-decoration: none;
   padding-top: 40px;
   margin-top: 100px;
@@ -123,15 +122,15 @@ a {
 
 .group h4 {
   text-align: left;
-  color: #86898E;
+  color: #86898e;
 }
 
 .group h5 {
-  color: #545C67;
+  color: #545c67;
 }
 
 .group p {
-  color: #989DA3;
+  color: #989da3;
 }
 
 .left {
@@ -154,7 +153,7 @@ a {
 .btn {
   display: flex;
   color: #fff;
-  background-color: #3066A6;
+  background-color: #3066a6;
   padding: 15px 0;
   border: none;
   border-radius: 5px;

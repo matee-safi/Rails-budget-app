@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  color: #2F3A42;
+  color: #2f3a42;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -35,8 +35,8 @@
 }
 
 .log-in-btn {
-  background-color: #3878C2;
-  color: #E2EBF6;
+  background-color: #3878c2;
+  color: #e2ebf6;
   text-decoration: none;
   width: 80%;
   padding: 15px;
@@ -44,7 +44,7 @@
 }
 
 .sign-in-btn {
-  color: #70747A;
+  color: #70747a;
   text-decoration: none;
   margin: 20px 0;
 }
