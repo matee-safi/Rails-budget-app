@@ -4,7 +4,10 @@ RSpec.describe User, type: :model do
   describe 'validations' do
     subject do
       User.new(
-        name: 'John Doe'
+        name: 'John Doe',
+        email: 'test@email.com',
+        password: 'password',
+        password_confirmation: 'password'
       )
     end
 

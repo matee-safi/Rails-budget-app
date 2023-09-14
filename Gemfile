@@ -7,6 +7,9 @@ gem 'rails', '~> 7.0.7', '>= 7.0.7.2'
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 
+gem 'faker'
+
+
 gem 'devise'
 
 gem 'cancancan'
@@ -32,6 +35,7 @@ gem 'bootsnap', require: false
 group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'rspec-rails'
+  gem 'rails-controller-testing'
 end
 
 group :development do
@@ -42,4 +46,5 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'webdrivers'
+  gem 'factory_bot_rails'
 end

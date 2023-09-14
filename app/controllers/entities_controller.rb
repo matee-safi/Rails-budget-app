@@ -1,4 +1,6 @@
 class EntitiesController < ApplicationController
+  before_action :authenticate_user!
+
   # GET /entities/new
   def new
     @group = Group.find(params[:group_id])
