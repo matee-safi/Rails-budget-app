@@ -1,16 +1,19 @@
 default: &default
   adapter: postgresql
   encoding: unicode
+  hostname: dpg-ck23emo21fec73b2v0q0-a
+  port: 5432
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  user: Rails_budget_app
+  username: rails_budget_app_cllq_user
+  password: tW4Y9BkHBipF5chUYxJxK1AoHGUPbn3F
 
 development:
   <<: *default
-  database: Rails_budget_app
+  database: rails_budget_app_cllq
 
 test:
   <<: *default
-  database: Rails_budget_app
+  database: rails_budget_app_cllq
 
 production:
   <<: *default
