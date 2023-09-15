@@ -15,7 +15,7 @@ gem 'cancancan'
 
 gem 'sprockets-rails'
 
-gem 'pg', '~> 1.1'
+gem 'pg'
 
 gem 'puma', '~> 5.0'
 
