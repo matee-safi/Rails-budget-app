@@ -2,14 +2,15 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  user: Rails_budget_app
 
 development:
   <<: *default
-  database: Rails_budget_app_development
+  database: Rails_budget_app
 
 test:
   <<: *default
-  database: Rails_budget_app_test
+  database: Rails_budget_app
 
 production:
   <<: *default
