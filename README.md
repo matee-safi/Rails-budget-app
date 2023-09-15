@@ -67,7 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming soon
+- To see the live demo on Render click [here](https://baybal.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
