@@ -9,6 +9,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🎥 Video Documentation](#video-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -27,7 +28,7 @@
 
 # 📖 Budget App <a name="about-project"></a>
 
-**Budget App** is a website made with RoR that can display your blogs along with their likes and comments.
+**Budget App** is a website made with RoR that can display your transactions along with their sources.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,6 +71,15 @@
 - To see the live demo on Render click [here](https://baybal.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- VIDEO DOCUMENTATION -->
+
+## 🎥 Video Documentation <a name="video-demo"></a>
+
+- To see the project video documentation click [here](https://www.loom.com/share/b443d6ce82964e46973cd21121fef23f?sid=e4c854e7-e1b9-4ae5-aca3-473b69b0c66d)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
