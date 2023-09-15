@@ -130,9 +130,9 @@ To run tests, run the following command:
 
 👤 **Matee Safi**
 
-- GitHub: [@githubhandle](https://github.com/matee-safi)
-- Twitter: [@twitterhandle](https://twitter.com/matee_safi)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/matee-safi/)
+- GitHub: [@matee-safi](https://github.com/matee-safi)
+- Twitter: [@matee_safi](https://twitter.com/matee_safi)
+- LinkedIn: [matee-safi](https://www.linkedin.com/in/matee-safi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
