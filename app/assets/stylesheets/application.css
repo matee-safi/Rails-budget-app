@@ -234,3 +234,11 @@ a {
 #total {
   margin-bottom: 100px;
 }
+
+select {
+  padding: 10px;
+  border: 1px solid #bfc1c4;
+  border-radius: 5px;
+  margin: 10px;
+  color: #70747a;
+}

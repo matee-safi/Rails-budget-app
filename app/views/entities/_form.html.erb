@@ -18,6 +18,8 @@
   <div>
     <%= form.text_field :name, class:'input', placeholder:'Name' %>
     <%= form.text_field :amount, class:'input', placeholder:'Amount' %>
+    <%= form.label "Pick a catagory: " %>
+    <%= form.select :group, Group.all.pluck(:name, :id) %>
     <%= form.submit class:'btn' %>
   </div>
 <% end %>
