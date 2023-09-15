@@ -132,7 +132,7 @@ To run tests, run the following command:
 
 - GitHub: [@matee-safi](https://github.com/matee-safi)
 - Twitter: [@matee_safi](https://twitter.com/matee_safi)
-- LinkedIn: [matee-safi](https://www.linkedin.com/in/matee-safi/)
+- LinkedIn: [@matee-safi](https://www.linkedin.com/in/matee-safi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,7 +167,6 @@ If you like this project give it a star.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank Microverse for making this possible.
-<br />
 - Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
