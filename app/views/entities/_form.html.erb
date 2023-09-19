@@ -1,0 +1,25 @@
+<%= form_with(model: [@group, @entity]) do |form| %>
+<div class="nav">
+  <%= link_to image_tag("arrow.png", width: '20'), group_path(@group) %>
+  <p class="center">NEW TRANSACTION</p>
+  <h6></h6>
+</div>
+  <% if entity.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(entity.errors.count, "error") %> prohibited this entity from being saved:</h2>
+
+      <ul>
+        <% entity.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div>
+    <%= form.text_field :name, class:'input', placeholder:'Name' %>
+    <%= form.text_field :amount, class:'input', placeholder:'Amount' %>
+    <%= form.label "Pick a catagory: " %>
+    <%= form.select :group, Group.all.pluck(:name, :id) %>
+    <%= form.submit class:'btn' %>
+  </div>
+<% end %>

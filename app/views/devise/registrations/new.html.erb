@@ -1,0 +1,13 @@
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <div class="nav">
+    <%= link_to image_tag("arrow.png", width: '30'), root_path %>
+    <p class="center">REGISTER</p>
+    <p><%= f.submit "Next", class: 'submit' %></p>
+  </div>
+  <%= render "devise/shared/error_messages", class:'errors', resource: resource %>
+
+  <%= f.text_field :name, autofocus: true, autocomplete: "name", placeholder:'Full Name', class:'input' %>
+  <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder:'Email', class:'input' %>
+  <%= f.password_field :password, autocomplete: "new-password", placeholder:'Password', class:'input' %>
+  <%= f.password_field :password_confirmation, autocomplete: "new-password", placeholder:'Confirm Password', class:'input' %>
+<% end %>
