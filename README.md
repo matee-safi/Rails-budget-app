@@ -76,7 +76,7 @@
 
 ## 🎥 Video Documentation <a name="video-demo"></a>
 
-- To see the project video documentation click [here](https://www.loom.com/share/b443d6ce82964e46973cd21121fef23f?sid=e4c854e7-e1b9-4ae5-aca3-473b69b0c66d)
+- To see the project video documentation click [here](https://www.loom.com/share/dcb1656afd5c4ecfbc855c70ce6e50e9?sid=3d79c221-23da-4008-83fa-0048a9f5aa50)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
